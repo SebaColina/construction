@@ -1,0 +1,68 @@
+.navbar {
+    position: initial; 
+    width: 100vw;  /* Ensures full viewport width */
+    height: 10vh;
+    background: rgb(255 223 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-sizing: border-box; /* Prevents content from being cut off */
+  }
+  
+  .navbar-title {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: anchor-center;
+  }
+  
+  .navbar-links li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  .navbar-links li a:hover {
+    background: #555;
+    border-radius: 5px;
+  }
+
+  .navbar-button{
+    color: black;
+    background-color: rgb(255 223 0);
+  }
+  
+  /* Fix content being hidden behind navbar */
+  body {
+    padding-top: opx; 
+    margin: 0;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+  }
+  
+  /* Fix scrollbar issue */
+  html {
+    width: 100vw; /* Ensures the full width is used */
+    overflow-x: hidden;
+  }
+
+  .hr-left {
+    width: 50%;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .navBar-icon{
+    width: 30px !important;
+    height: 30px !important;
+    margin-bottom: 0rem !important;
+  }
+  
